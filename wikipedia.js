@@ -10,13 +10,11 @@
 (function() {
     //'use strict';
   var x = document.getElementsByClassName("mw-page-container");
-  console.log(x);
   var i;
   for (i = 0; i < x.length; i++) {
     x[i].style.maxWidth="none";
   }
   var x = document.getElementsByClassName("mw-content-container");
-  console.log(x);
   var i;
   for (i = 0; i < x.length; i++) {
     x[i].style.maxWidth="none";
